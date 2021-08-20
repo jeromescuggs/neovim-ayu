@@ -65,7 +65,7 @@ local function set_groups()
     Visual = { bg = colors.selection_inactive },
     WarningMsg = { fg = colors.warning },
 
-    Comment = { fg = colors.comment },
+    Comment = { fg = colors.comment, style = 'italic' },
     Constant = { fg = colors.constant },
     String = { fg = colors.string },
     Identifier = { fg = colors.entity },
